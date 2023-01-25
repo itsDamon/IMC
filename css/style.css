@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+}
+
+header {
+  width: 100%;
+  margin: 3%;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#btnSubmit {
+  align-self: center;
+  margin: 3%;
+  width: 70%;
+  height: 3rem;
+}
+
+input {
+  height: 80%;
+  width: 30rem;
+}
+
+.element {
+  font-size: 1.7rem;
+  height: 40px;
+  margin: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
