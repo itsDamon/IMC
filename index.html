@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/2b654a1dfa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js" defer></script>
     <title>IMC</title>
@@ -29,19 +30,26 @@
               <input type="date" name="dataDiNascita" id="dateInput" required />
             </div>
             <div class="element">
-              <label for="altezza">Inseirsici la tua data di nascita:</label>
-              <input type="number" name="altezza" id="heightInput" placeholder="altezza"required />
+              <label for="altezza">Inserisci la tua altezza (in cm):</label>
+              <input type="number" name="altezza" id="heightInput" placeholder="altezza" max="250" min="70" required />
             </div>
             <div class="element">
-              <label for="peso">Inseirsici la tua data di nascita:</label>
+              <label for="peso">Inserisci il tuo peso:</label>
               <input type="number" name="peso" id="weightInput" placeholder="peso"required />
             </div>
         </form>
         <button type="button" id="btnSubmit">CALCOLA</input>
         </div>
       </div>
-      <div class="submitDiv">
-        
+      <div id="submitDiv">
+        <div id="imageDiv">
+          <i class="fa-regular fa-face-laugh" id="normopeso"></i> <!--normopeso-->
+          <i class="fa-regular fa-face-sad-tear" id="sottopeso"></i> <!--sottopeso-->
+          <i class="fa-regular fa-face-meh" id="sovrappeso"></i> <!--sovrappeso-->
+          <i class="fa-regular fa-face-frown-open" id="obeso"></i> <!--obeso-->
+          <i class="fa-regular fa-face-angry" id="estremamenteObeso"></i> <!--estremamenteObeso-->
+        </div>
+        <p id="output">QUI USCIRÀ IL TUO IMC</p>
       </div>
     </main>
   </body>
