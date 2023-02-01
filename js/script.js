@@ -14,6 +14,27 @@ function calculate() {
   let height = document.querySelector('input[name="altezza"]');
   let weight = document.querySelector('input[name="peso"]');
 
+
+  if (!name.value){
+    alert("Inserisci il tuo nome");
+    return;
+  }
+  if (!surname.value){
+    alert("Inserisci il tuo cognome");
+    return;
+  }
+  if (!dataDiNascita.value){
+    alert("Inserisci la tua data di nascita");
+    return;
+  }
+  if (!height.value){
+    alert("Inserisci la tua altezza");
+    return;
+  }
+  if (!weight.value){
+    alert("Inserisci il tuo peso");
+    return;
+  }
   
   if (
     !name.value ||
