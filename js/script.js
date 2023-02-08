@@ -79,8 +79,7 @@ function calculate() {
     document.getElementById('estremamenteObeso').style.display = 'inline-block';
     
   }
-  
-    console.log(outputDiv);
+  console.log(outputDiv);
 
 }
 
