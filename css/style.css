@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow: hidden;
+}
+
 h1 {
   text-align: center;
   font-size: 3rem;
@@ -76,9 +80,9 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 6rem;
+  height: 5.8rem;
   width: 100%;
-  border: 10px solid #000;
+  border: 8px solid #000;
   font-size: 1.7rem;
 }
 
